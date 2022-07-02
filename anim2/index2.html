@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+	.art{
+		width:400px;
+		height:400px;
+		background:url(https://i.pinimg.com/564x/86/ed/84/86ed84ffbea79a5e429288515ea15800.jpg);
+		background-size:100% 100%;
+		animation:anim 5s linear 1s infinite alternate; 
+		}
+		@keyframes anim{
+		0%{
+			transform:translate(0px, 0px);
+		}
+		25%{
+			transform:translate(-100px, 5px) rotate(360deg);
+		}
+		50%{
+			transform:translate(-100px, 500px) skew(50deg);
+		}
+		75%{
+			transform:translate(1500px, 50px);
+		}
+		100%{
+			transform:translate(0px, 0px);
+			
+		}
+		}
+	.art2{
+	animation:art2 3s linear 1s infinite alternate;
+	
+	background:url(https://klike.net/uploads/posts/2019-03/1551772531_1.jpg);
+	background-size:100% 100%;
+	}
+	@keyframes art2{
+		0%{
+			color:black;
+		}
+		25%{
+			color:white;
+		}
+		50%{
+			color:red;
+		}
+		75%{
+			color:green;
+		}
+		100%{
+			
+			color:gray;
+		}
+		}
+</style>
+</head>
+<body>
+<div class="art"></div>
+<h1 class="art2" align="center">artbendy</h1>
+</body>
+</html>
